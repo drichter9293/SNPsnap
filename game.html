@@ -1,0 +1,66 @@
+<html xmlns="http://www.w3.org/1999/html">
+<head>
+<link rel="stylesheet" href="css/mycss.css" type="text/css"  media="all"/>
+	<script src="http://code.jquery.com/jquery-1.10.1.min.js"></script>
+	<script src="http://code.jquery.com/jquery-migrate-1.2.1.min.js"></script>
+
+	<title>SNPsnap: The Game</title>
+</head>
+
+<body onload="preloadImages(); setScreen(0);">
+<div id="container">
+<div id="backdrop"></div>
+<div id="cast"></div>
+
+<!-- ImageReady Slices (Untitled-1) -->
+	<div id="menu1">
+<img name="menu_01" src="./images/menu_01.png" width="800" height="155" border="0" alt="" usemap="#menu_01_Map">
+<map name="menu_01_Map">
+<area shape="rect" alt="" coords="600,73,798,154" href="#" id="op4"
+	onmouseover="changeImages('menu_01', 'images/menu_01-ImageMap_04_over.png'); return true;"
+	onmouseout="changeImages('menu_01', 'images/menu_01.png'); return true;"
+	onmousedown="changeImages('menu_01', 'images/menu_01-ImageMap_04_over.png'); return true;"
+	onmouseup="changeImages('menu_01', 'images/menu_01-ImageMap_04_over.png'); return true;">
+<area shape="rect" alt="" coords="600,0,799,73" href="#" id="op3"
+	onmouseover="changeImages('menu_01', 'images/menu_01-ImageMap_03_over.png'); return true;"
+	onmouseout="changeImages('menu_01', 'images/menu_01.png'); return true;"
+	onmousedown="changeImages('menu_01', 'images/menu_01-ImageMap_03_over.png'); return true;"
+	onmouseup="changeImages('menu_01', 'images/menu_01-ImageMap_03_over.png'); return true;">
+<area shape="rect" alt="" coords="0,74,199,154" href="#" id="op2"
+	onmouseover="changeImages('menu_01', 'images/menu_01-ImageMap_02_over.png'); return true;"
+	onmouseout="changeImages('menu_01', 'images/menu_01.png'); return true;"
+	onmousedown="changeImages('menu_01', 'images/menu_01-ImageMap_02_over.png'); return true;"
+	onmouseup="changeImages('menu_01', 'images/menu_01-ImageMap_02_over.png'); return true;">
+<area shape="rect" alt="" coords="0,0,199,74" href="#" id="op1"
+	onmouseover="changeImages('menu_01', 'images/menu_01-ImageMap_01_over.png'); return true;"
+	onmouseout="changeImages('menu_01', 'images/menu_01.png'); return true;"
+	onmousedown="changeImages('menu_01', 'images/menu_01-ImageMap_01_over.png'); return true;"
+	onmouseup="changeImages('menu_01', 'images/menu_01-ImageMap_01_over.png'); return true;">
+</map></div>
+<!-- End ImageReady Slices -->
+
+<div id="op1-text">
+</div>
+
+<div id="op2-text">
+</div>
+
+<div id="op3-text">
+</div>
+
+<div id="op4-text">
+</div>
+
+<div id="hero-text">
+</div>
+
+	<div id="objective-text"></div>
+
+	<div id="stacy-text">
+	</div>
+<script type="text/javascript" src="gamescript.js"></script>
+	<script type="text/javascript" src="level1.js"></script>
+
+</div>
+</body>
+</html>

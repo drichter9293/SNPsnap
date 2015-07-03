@@ -1,0 +1,27 @@
+#bodyCanvas {
+	float: left;	
+	background-color: blue;
+	color: yellow;
+	text-align: center;
+	padding: 10px;
+	height: 600px;
+	width: 350px;
+}
+
+#wrapper {
+	float: left;
+	padding: 10px;
+}
+
+#list {
+	background-color: green;
+	height: 200px;
+	width: 400px;
+}
+
+#summaryDisplay {
+	top: 220px;
+	background-color: purple;
+	height: 350px;
+	width: 400px;
+}

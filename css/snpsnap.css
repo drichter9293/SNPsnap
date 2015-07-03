@@ -1,0 +1,47 @@
+body {
+  margin: 2em auto !important;
+  font-family: Helvetica, sans-serif;
+}
+
+body *  { margin: 0; }
+
+.center { text-align: center; }
+
+hr { margin: 2em 0; }
+
+input[type="submit"] {
+  width: 100%;
+}
+
+input {
+  height: 100%;
+  margin: 0.5em 0;
+}
+
+select[name="disorder"] { height: 100%; }
+select[name="body_parts[]"], select[name="disorder"] { height: 100%; width: 100%; }
+
+.header-margin-top {
+  margin-top: 1em;
+}
+
+.header-margin-bottom {
+  margin-bottom: 0.25em;
+}
+
+.no-underline-links a {
+  text-decoration: none;
+}
+
+.default-margin-bottom {
+  margin-bottom: 2em;
+}
+
+.monospaced-font-text {
+  font-family: monospace;
+}
+
+input[type="submit"].negative {
+  background-color: #f00;
+  color: #fff;
+}
